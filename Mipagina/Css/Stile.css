@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+}
+
+/* Sección Sobre Mí */
+#sobre-mi {
+    margin-bottom: 40px;
+}
+
+/* Sección Tecnologías Favoritas */
+#tecnologias-favoritas .tarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.tarjeta {
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Sección Actividades Favoritas */
+#actividades-favoritas form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#actividades-favoritas input {
+    padding: 10px;
+    width: 300px;
+}
+
+#contenedor-actividades {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.actividad {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.actividad img {
+    width: 100%;
+    height: auto;
+}

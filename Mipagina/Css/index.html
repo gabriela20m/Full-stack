@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página personal</h1>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Gabriela Muñoz Martinez, apasionada por el desarrollo web y las nuevas tecnologías.</p>
+    </section>
+
+    <!-- Sección Mis Tecnologías Favoritas -->
+    <section id="tecnologias-favoritas">
+        <h2>Mis Tecnologías Favoritas</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Mis Actividades Favoritas -->
+    <section id="actividades-favoritas">
+        <h2>Mis Actividades Favoritas</h2>
+        <form id="form-actividades">
+            <input type="text" id="titulo" placeholder="Título de la actividad">
+            <input type="text" id="descripcion" placeholder="Descripción">
+            <input type="text" id="imagen-url" placeholder="URL de la imagen">
+            <button type="submit">Agregar Actividad</button>
+        </form>
+
+        <div id="contenedor-actividades">
+            <!-- Aquí aparecerán las actividades creadas -->
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

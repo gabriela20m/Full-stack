@@ -33,7 +33,7 @@ const persona = {
     ciudad: "Madrid"
   };
   
-  // Destructuring para extraer propiedades
+ // // Destructuring para extraer propiedades
   const { nombre, edad, ciudad } = persona;
   
   console.log(nombre); //  David
@@ -54,3 +54,18 @@ const persona = {
  // console.log(nombrePersona); // David
  // console.log(edadPersona);   //  30
   
+
+
+//
+ //const persona = {
+  //nombre: "David",
+ // edad: 25,
+ // ciudad: "Madrid"
+//};
+
+// Usamos destructuring para extraer las propiedades
+//const { nombre, edad, ciudad } = persona;
+
+console.log(nombre); // David
+console.log(edad);   // 25
+console.log(ciudad); // Madrid
